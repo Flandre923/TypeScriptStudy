@@ -13,6 +13,14 @@ export default defineComponent({
       count():number{
           return this.$store.state.count;
       },
+  },
+  methods:{
+      inCount():void{
+          this.$store.commit("inCount")
+      },
+      inMsg(msg:string):void{
+          this.$store.commit("inCount",msg)
+      }
   }
 })
 </script>

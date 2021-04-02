@@ -1,0 +1,17 @@
+module.exports=[
+    {
+        //侧边栏分组
+        title:'xinshouzhinan',
+        collapsable:true,//是否初始折叠显示
+        children:[
+            '/guide/notes/one',
+        ]
+    },
+    {
+        title:"xinshouzhinena2",
+        collapsable:true,
+        children:[
+            '/guide/notes/two'
+        ]
+    }
+]

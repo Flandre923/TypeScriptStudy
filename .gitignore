@@ -1,0 +1,23 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+# vue=ts-vite
+/vue=ts-vite/node_modules
+/vue=ts-vite/.DS_Store
+/vue=ts-vite/dist
+/vue=ts-vite/dist-ssr
+/vue=ts-vite/*.local
+# vuepress-starter
+/vuepress-starter/node_modules
+/vuepress-starter/.DS_Store
+/vuepress-starter/dist
+/vuepress-starter/dist-ssr
+/vuepress-starter/*.local
+# vue-ts
+/vue-ts/node_modules
+/vue-ts/.DS_Store
+/vue-ts/dist
+/vue-ts/dist-ssr
+/vue-ts/*.local
